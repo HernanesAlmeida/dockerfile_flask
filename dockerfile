@@ -8,7 +8,7 @@ COPY ./motd /etc/motd
 RUN chmod +x /usr/local/start.sh && \
     apt update && \
     apt upgrade -y && \
-    apt install nano vim curl wget python python3 python3-distutils ssh htop -y && \
+    apt install nano vim curl wget python python3 python3-distutils ssh htop git -y && \
     cd /tmp && \
     curl https://bootstrap.pypa.io/get-pip.py -o get-pip3.py && \
     curl https://bootstrap.pypa.io/2.7/get-pip.py -o get-pip2.py && \
