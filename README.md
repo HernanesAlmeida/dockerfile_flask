@@ -12,7 +12,7 @@ By default, the image is configured with an example project running on port 80. 
 For your project to be executed by default by the container, just place the contents of your project inside /home/flask/app.
 
 ### Users
-Por padrão o imagem possui dois usuários:
+By default the image has two users:
 - root: Root_flask!@#
 - flask: flask!@#
 
